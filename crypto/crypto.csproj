@@ -63,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoinMarketCap.cs" />
     <Compile Include="Currency.cs" />
     <Compile Include="CurrencyContext.cs" />
     <Compile Include="Program.cs" />
