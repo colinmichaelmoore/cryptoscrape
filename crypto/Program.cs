@@ -1,10 +1,4 @@
-﻿using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using HtmlAgilityPack;
-using ScrapySharp.Html.Forms;
-
-namespace Scrape
+﻿namespace crypto
 {
     class Program
     {
@@ -12,7 +6,7 @@ namespace Scrape
         {
             
             CoinMarketCap coinMarketCap = new CoinMarketCap();
-            coinMarketCap.scrape();
+            coinMarketCap.Scrape();
             
         }
     }

@@ -66,12 +66,22 @@
     <Compile Include="CoinMarketCap.cs" />
     <Compile Include="Currency.cs" />
     <Compile Include="CurrencyContext.cs" />
+    <Compile Include="Migrations\201802010311287_Initial.cs" />
+    <Compile Include="Migrations\201802010311287_Initial.Designer.cs">
+      <DependentUpon>201802010311287_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201802010311287_Initial.resx">
+      <DependentUpon>201802010311287_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace Scrape
+namespace crypto
 {
     public class CurrencyContext : DbContext
     {
